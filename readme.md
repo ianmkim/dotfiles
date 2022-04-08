@@ -1,4 +1,22 @@
 # Dotfiles
+
+## Installation
+Clone the repo and pull all submodules
+```
+git clone https://github.com/parvusvox/dotfiles.git
+cd dotfiles
+git submodule update --init --recursive 
+```
+### TMUX
+Move the tmux.conf to ~/.tmux.conf
+
+### Neovim
+```
+cd neovim-init.vim
+chmod +x install.sh
+./install.sh
+```
+
 ## Tmux
 Leader key is Ctrl+a
 | Shortcuts | Action |
